@@ -12,7 +12,7 @@ public class Usuario extends Conectar {
    
 
     public boolean getLogin() {
-        if (email.equals("admin") && senha.equals("1234")) {
+        if (email.equals(master) && senha.equals(senhaMaster)) {
             return true;
         }
 

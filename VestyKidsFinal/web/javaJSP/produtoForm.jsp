@@ -159,7 +159,7 @@
                         </button>
                     <% } %>
                     
-                    <a href="produtos.jsp" class="btn btn-secondary">Voltar</a>
+                    <a href="javaJSP/produtos.jsp" class="btn btn-secondary">Voltar</a>
                 </div>
             </form>
         </div>

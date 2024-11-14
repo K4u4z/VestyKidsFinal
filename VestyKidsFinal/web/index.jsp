@@ -1,3 +1,12 @@
+
+<%
+             String login = "";
+             if (request.getParameter("email") != null ){ 
+              login =  (String) request.getParameter("email");
+             }
+             
+%>
+<%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -17,8 +26,21 @@
                 </div>
             <nav>
                 <ul>
+                    
+                    
                     <li><a href="index.html">Home</a></li>
-                    <li><a href="produtos.html">Produtos</a></li>
+                    
+                    <% if ( login.equalsIgnoreCase("admin")) {
+                               out.print("<li><a href='javaJSP/produtoForm.jsp'> Estoque </a></li>");
+                               
+                               
+                        }
+                        else  {
+                               out.print("<li><a href='produtos.html'>produtos</a></li>");
+                        }
+                    %>
+                    
+                    
                     <li><a href="contato.html">Contato</a></li>
                     <li><a href="conta.html">Conta</a></li>
                 </ul>

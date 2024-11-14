@@ -44,15 +44,18 @@
                     <hr id="Indicador">
                 </div>
 
-                <form class="formLogar">
+                   <form action="javaJSP/login.jsp" method="get" enctype="multipart/form-data" class="formLogar" >
+                       
                     <label for="email">Login</label>
-                    <input type="text" id="txtLogin" required>
-                    <label for="Senha">Senha</label>
-                    <input type="password" id="passSenha" required>
-                    <button type="submit" class="btn" id="btnEnvia">Login</button>
-                    <button onclick = "window.location.assign('cadastro.html');" value = "Registrar" >Cadastrar</button>
                     
-                    <p>Não tem login, <a class="form-a"href="cadastro.html"  >Cadastre-se</a></p>
+                    <input type="text" id="txtLogin" name=txtLogin required>
+                    
+                    <label for="Senha">Senha</label>
+                    <input type="password" id="passSenha" name=passSenha required>
+                    
+                    <button type="submit" class="btn" id="btnEnvia" value = "Login"> 
+                        
+                    <button onclick = "window.location.assign('cadastro.html');" value="Registrar" >
                 </form>
                </div>
             </div>

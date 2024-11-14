@@ -7,6 +7,9 @@ import java.sql.Connection;    // Armazena a Conexão Aberta
 import java.sql.PreparedStatement;
 
 public class Conectar {
+public String master = "admin";
+public String senhaMaster = "1234";
+    
 public Connection con;       // variávei que armazena a conexão com o SQL
 public String sql;           // variável que armazena os comandos SQL  
 public PreparedStatement ps; // objeto que prepara o sql
