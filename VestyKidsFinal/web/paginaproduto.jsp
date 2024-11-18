@@ -1,3 +1,10 @@
+<%-- 
+    Document   : paginaproduto
+    Created on : 16/11/2024, 14:32:27
+    Author     : ramo-
+--%>
+
+<%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html lang="pt-br">
 
@@ -20,9 +27,9 @@
                 </div>
                 <nav>
                     <ul>
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="produtos.html">Produtos</a></li>
-                        <li><a href="conta.html">Contato</a></li>
+                        <li><a href="index.jsp">Home</a></li>
+                        <li><a href="produtos.jsp">Produtos</a></li>
+                        <li><a href="contato.html">Contato</a></li>
                         <li><a href="conta.html">Conta</a></li>
                     </ul>
                 </nav>

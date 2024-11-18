@@ -17,6 +17,26 @@ public class Produtos extends Conectar {
     public InputStream foto;       // Imagem guardada no InputStream
     public long tamanho;          // Guarda o tamanho da imagem em bytes 
     public String imagemBase64;   // Imagem em formato Base64 para exibição no html
+    
+    public void setPkProd(int pkProd) {
+    this.pk_prod = pkProd;
+}
+
+    public int getPkProd() {
+        return pk_prod;
+    }
+
+    public String getNome() {
+        return nome;
+    }
+
+    public double getValor() {
+        return valor;
+    }
+
+    public String getImagemBase64() {
+        return imagemBase64;
+    }
 
     public boolean buscar() {
         this.statusSQL = null;

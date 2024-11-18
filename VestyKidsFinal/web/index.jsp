@@ -36,7 +36,7 @@
                                
                         }
                         else  {
-                               out.print("<li><a href='produtos.html'>produtos</a></li>");
+                               out.print("<li><a href='produtos.jsp'>produtos</a></li>");
                         }
                     %>
                     
@@ -130,7 +130,7 @@ garantindo que cada criança se sinta única e especial. Na Vesty Kids, cada det
     <h2 class="titulo">Principais Produtos</h2>
     <div class="row">
         <div class="col-4">
-            <a href="paginaproduto.html"><img src="img/foto_p1.png"></a>
+            <a href="paginaproduto.jsp"><img src="img/foto_p1.png"></a>
             <h4>Conjunto Barbie</h4>
             <p>R$80,00</p>
         </div>

@@ -119,7 +119,7 @@ public class CadProduto extends HttpServlet {
                     + "<div class='container'>"
                     + "<div class='message'>" + (statusSQL != null ? statusSQL : "") + "</div>"
                     + "<div style='text-align: center;'>"
-                    + "<a href='" + request.getContextPath() + "/javaJSP/produtos.jsp' class='button'>Voltar</a>"
+                    + "<a href='" + request.getContextPath() + "/javaJSP/produtoForm.jsp' class='button'>Voltar</a>"
                     + "</div>"
                     + "</div>"
                     + "</body></html>";
